@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language learning</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Language learning</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="wrapper">        
-        <div class="window">
-            <div class="top-text">login</div>
-            <header class="header">
-                <div class="time">9:41</div>
-                <div class="icons">
-                    <img class="h-img" src="image/cellular.png" alt="icon 1">
-                    <img class="h-img" src="image/wifi.png" alt="icon 2">
-                    <img class="h-img" src="image/full-battery.png" alt="icon 3">
-                </div>
-            </header>
-            <img class="s-img" src="image/study.png" alt="study">
-            <div class="inner-window">
-                <header class="s-header">LOGIN</header>
-            </div>
+  <div class="wrapper">
+    <div class="window">
+      <div class="top-text">login</div>
+
+      <header class="header">
+        <div class="time">9:41</div>
+        <div class="icons">
+          <img class="h-img" src="image/cellular.png" alt="cellular"/>
+          <img class="h-img" src="image/wifi.png" alt="wifi"/>
+          <img class="h-img" src="image/full-battery.png" alt="battery"/>
         </div>
+      </header>
+
+      <img class="s-img" src="image/study.png" alt="study"/>
+
+      <div class="inner-window">
+        <header class="s-header">LOGIN</header>
+
+        <div class="inputs">
+          <form action="index.php" method="post">
+            <!-- Email -->
+            <div class="field">
+              <span class="flabel">Email ID</span>
+              <div class="input-row">
+                <img class="icon" src="image/mail.png" alt="mail"/>
+                <input class="finput" type="email" name="email" placeholder="willsmith@iloveu.com" required/>
+              </div>
+            </div>
+
+            <!-- Password -->
+            <div class="field">
+              <span class="flabel">Password</span>
+              <div class="input-row">
+                <img class="icon" src="image/lock.png" alt="lock"/>
+                <input class="finput" type="password" name="password" placeholder="••••••••" required/>
+              </div>
+            </div>
+            <span class="help">Forget Password?</span>
+            <button class="btn" type="submit">Login</button>
+          </form>
+        </div>
+        <footer>
+            <span class="footer-text">Login with Social Media</span>
+            <div class="footer-buttons"> 
+                <button class="fbtn">
+                    <img class="google" src="image/google.png" alt="google">
+                    Google
+                </button>
+                <button class="fbtn">
+                    <img class="facebook" src="image/facebook.png" alt="facebook">Facebook</button>
+            </div>
+        </footer>
+      </div>
     </div>
+  </div>
 </body>
 </html>
