@@ -1,3 +1,43 @@
-body {
+html, body {
+    margin: 0;
+    height: 100%;
     background: #F2F2F2;
+}
+.gigabox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+}
+.box{
+    background: #FFFFFF;
+    height: 844px;
+    width: 390px;
+}
+
+.header2 {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding: 0 10px;
+    /* width: 390px; */
+    /* border: 2px solid green; */
+    box-sizing: border-box;
+}
+
+.left {
+    margin-left: 12px;
+}
+.right {
+    margin-right: 12px;
+    display: flex;
+    margin-left: auto;
+    gap: 6px;
+    
+}
+
+.phoneimg, .wifiimg, .batimg {
+    width: 20px;
+    height: 20px;
 }
