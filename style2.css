@@ -120,9 +120,17 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     border: none;
+    cursor: pointer;
 }
 
 .text-btn {
     color: white;
     text-transform: uppercase;
 }   
+
+.btn2:hover { 
+    filter: brightness(1.05);
+ }
+.btn2:active { 
+    transform: translateY(1px);
+ }
