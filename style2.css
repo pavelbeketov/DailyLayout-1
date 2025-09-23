@@ -98,16 +98,13 @@ html, body {
     display: flex;
     justify-content: center;
  }
-
- .svgg {
-    /* margin-right: 400px; */
-    /* border: 2px solid red; */
- }
+ 
 .lang {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     /* width: 340px; */
+    cursor: pointer;
 }
 
 .btn2 {
